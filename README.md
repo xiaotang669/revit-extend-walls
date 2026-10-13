@@ -8,15 +8,9 @@ A collection of pyRevit tools for Autodesk Revit, built to handle repetitive mod
 
 ## 工具列表 / Tools
 
-### 延伸墙梁 / Extend Walls and Beams
-
-框选一批墙或梁，点选目标构件，自动批量延伸。
-
-Box-select multiple walls or beams, pick a target, and batch-extend them.
-
-- 自动保护墙上的门窗 / Automatically protects doors and windows
-- 自动跳过机电类构件 / Skips MEP elements
-- 文件夹：`延伸墙梁.pushbutton/`
+| 工具 | 说明 |
+|:---|:---|
+| [延伸墙梁 / Extend Walls and Beams](./延伸墙梁.pushbutton/) | 框选一批墙或梁，点选目标构件，自动批量延伸 |
 
 ---
 
@@ -30,8 +24,8 @@ Box-select multiple walls or beams, pick a target, and batch-extend them.
 
 ## 安装方法 / Installation
 
-1. 下载本仓库的 `.pushbutton` 文件夹
-   Download the `.pushbutton` folder from this repo.
+1. 下载你需要的 `.pushbutton` 文件夹
+   Download the `.pushbutton` folder you need.
 
 2. 复制到 pyRevit 扩展目录：
    Copy it to your pyRevit extensions folder:
@@ -39,6 +33,9 @@ Box-select multiple walls or beams, pick a target, and batch-extend them.
    
 3. 打开 Revit，点击 pyRevit 选项卡里的 **Reload**
 Open Revit, click **Reload** in the pyRevit tab.
+
+4. 每个工具的详细说明，见各自文件夹里的 README
+For detailed instructions, see the README inside each tool folder.
 
 ---
 
