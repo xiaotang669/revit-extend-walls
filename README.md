@@ -29,12 +29,13 @@ A collection of pyRevit tools for Autodesk Revit, built to handle repetitive mod
 
 2. 复制到 pyRevit 扩展目录：
    Copy it to your pyRevit extensions folder:
-   %APPDATA%\pyRevit\Extensions\MyTools.extension\MyTab.tab\Favorites.panel\
+  %APPDATA%\pyRevit\Extensions\
+放到任意扩展目录下
    
-3. 打开 Revit，点击 pyRevit 选项卡里的 **Reload**
+4. 打开 Revit，点击 pyRevit 选项卡里的 **Reload**
 Open Revit, click **Reload** in the pyRevit tab.
 
-4. 每个工具的详细说明，见各自文件夹里的 README
+5. 每个工具的详细说明，见各自文件夹里的 README
 For detailed instructions, see the README inside each tool folder.
 
 ---
