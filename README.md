@@ -35,8 +35,8 @@ Box-select multiple walls or beams, pick a target, and batch-extend them.
 
 2. 复制到 pyRevit 扩展目录：
    Copy it to your pyRevit extensions folder:
-%APPDATA%\pyRevit\Extensions\MyTools.extension\MyTab.tab\Favorites.panel\
-
+   %APPDATA%\pyRevit\Extensions\MyTools.extension\MyTab.tab\Favorites.panel\
+   
 3. 打开 Revit，点击 pyRevit 选项卡里的 **Reload**
 Open Revit, click **Reload** in the pyRevit tab.
 
