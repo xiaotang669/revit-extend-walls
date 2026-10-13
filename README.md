@@ -1,18 +1,22 @@
-# Revit Extend Walls and Beams
+# Revit pyRevit Tools
 
-一个基于 pyRevit 的 Revit 工具：批量延伸墙和梁到目标构件。
+一套基于 pyRevit 的 Revit 工具集，用于处理日常建模中的重复性操作。
 
-A pyRevit tool for Autodesk Revit: batch-extend walls and beams to a target element.
+A collection of pyRevit tools for Autodesk Revit, built to handle repetitive modeling tasks.
 
 ---
 
-## 功能 / Features
+## 工具列表 / Tools
 
-- 框选一批墙或梁 / Box-select multiple walls or beams
-- 点选一个目标构件 / Pick one target element
-- 自动延伸，无需逐个操作 / Batch extend, no one-by-one picking
-- 自动保护墙上的门窗 / Automatically protects doors and windows on walls
-- 自动跳过机电类构件 / Skips MEP elements (pipes, ducts, etc.)
+### 延伸墙梁 / Extend Walls and Beams
+
+框选一批墙或梁，点选目标构件，自动批量延伸。
+
+Box-select multiple walls or beams, pick a target, and batch-extend them.
+
+- 自动保护墙上的门窗 / Automatically protects doors and windows
+- 自动跳过机电类构件 / Skips MEP elements
+- 文件夹：`延伸墙梁.pushbutton/`
 
 ---
 
@@ -26,37 +30,15 @@ A pyRevit tool for Autodesk Revit: batch-extend walls and beams to a target elem
 
 ## 安装方法 / Installation
 
-1. 下载本仓库的 `延伸墙梁.pushbutton` 文件夹
-   Download the `延伸墙梁.pushbutton` folder from this repo.
+1. 下载本仓库的 `.pushbutton` 文件夹
+   Download the `.pushbutton` folder from this repo.
 
 2. 复制到 pyRevit 扩展目录：
    Copy it to your pyRevit extensions folder:
-   %APPDATA%\pyRevit\Extensions\MyTools.extension\MyTab.tab\Favorites.panel\
+%APPDATA%\pyRevit\Extensions\MyTools.extension\MyTab.tab\Favorites.panel\
 
-4. 打开 Revit，点击 pyRevit 选项卡里的 **Reload**
+3. 打开 Revit，点击 pyRevit 选项卡里的 **Reload**
 Open Revit, click **Reload** in the pyRevit tab.
-
-5. 按钮会出现在你的自定义面板里
-The button will appear in your custom panel.
-
----
-
-## 使用方法 / Usage
-
-1. 点击按钮 / Click the button
-2. 框选要延伸的墙或梁，按 **完成** 确认 / Box-select walls or beams, press **Enter**
-3. 点选一个目标构件 / Pick a target element
-4. 脚本自动处理，弹窗显示结果 / The script runs and shows a result dialog
-
----
-
-## 已知限制 / Known Limitations
-
-- 机电类构件不支持 / MEP elements are not supported
-- 梁的 LocationCurve setter 在部分环境下可能不可用
-The LocationCurve setter for beams may be read-only in some environments
-- 缩短构件的操作默认被拒绝（保护门窗）
-Shortening operations are refused by default (to protect openings)
 
 ---
 
