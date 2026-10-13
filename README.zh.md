@@ -2,22 +2,21 @@
 
 一套基于 pyRevit 的 Revit 工具集，用于处理日常建模中的重复性操作。
 
-A collection of pyRevit tools for Autodesk Revit, built to handle repetitive modeling tasks.
+**其他语言 / Other languages:** [English](./README.en.md)
 
 ---
 
-## 工具列表 / Tools
+## 工具列表
 
-| 工具 / Tool | 说明 / Description |
+| 工具 | 说明 |
 |:---|:---|
-| [延伸墙梁 / Extend Walls and Beams](./延伸墙梁.pushbutton/) | 框选一批墙或梁，点选目标构件，自动批量延伸。Box-select walls or beams and batch-extend them to a target. |
+| [延伸墙梁 / Extend Walls and Beams](./延伸墙梁.pushbutton/) | 框选一批墙或梁，点选目标构件，自动批量延伸 |
 
 > 更多工具正在开发中，欢迎 Star 关注更新。
-> More tools are on the way. Star this repo to stay updated.
 
 ---
 
-## 环境要求 / Requirements
+## 环境要求
 
 - **Autodesk Revit** 2020
 - **pyRevit** 6.5.3 或更高版本
@@ -27,12 +26,11 @@ A collection of pyRevit tools for Autodesk Revit, built to handle repetitive mod
 
 ---
 
-## 安装方法 / Installation
+## 安装方法
 
 ### 前置：安装 pyRevit
 
 如果你还没有 pyRevit，先去官网下载安装：
-If you don't have pyRevit yet, download it from:
 https://www.pyrevitlabs.io/
 
 安装时选择 **Admin / All Users** 版本，一路 Next 即可。
@@ -47,10 +45,10 @@ https://www.pyrevitlabs.io/
    %APPDATA%\pyRevit\Extensions\
    如果 `Extensions` 文件夹不存在，手动新建一个。
 
-3. **在 Revit 里加载**
+4. **在 Revit 里加载**
 打开 Revit，点击顶部 `pyRevit` 选项卡 → 点击 **`Reload`** 按钮。
 
-4. **找到你的工具**
+5. **找到你的工具**
 工具会出现在 `pyRevit` 选项卡下的自定义面板里。
 如果你没有自定义面板，工具会出现在 `pyRevit` 的默认面板中。
 
@@ -61,7 +59,7 @@ https://www.pyrevitlabs.io/
 
 ---
 
-## 关于作者 / About
+## 关于作者
 
 - **B站主页**：https://space.bilibili.com/1562942194
 - **GitHub**：https://github.com/xiaotang669
@@ -69,6 +67,6 @@ https://www.pyrevitlabs.io/
 
 ---
 
-## 开源协议 / License
+## 开源协议
 
 MIT
