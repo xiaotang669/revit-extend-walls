@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+# ============================================================
+#  Author  : xiaotang669
+#  GitHub  : https://github.com/xiaotang669/revit-pyrevit-tools
+#  Bilibili: https://space.bilibili.com/1562942194
+#  本项目开源免费。如果你是在其他地方付费购买的，说明你被骗了。
+# ============================================================
 """
 Extend a batch of walls and beams to one target element.
 Environment: pyRevit 6.5.3 / IronPython 2.7 / Revit 2020 API
