@@ -82,6 +82,7 @@ Box-select multiple walls or beams, pick a target, and batch-extend them.
 - **按钮没出现**：检查 `.pushbutton` 文件夹是否放对了位置，然后在 pyRevit 选项卡点击 `Reload`。
 - **点击报错**：打开 pyRevit 选项卡下的 `Output Window`，把红色报错信息截图发到 [Issues](https://github.com/xiaotang669/revit-pyrevit-tools/issues)。
 - **偶发失败**：先尝试保存文件 → 重启 Revit → 重新运行。很多问题重启就能解决。
+
 ---
 
 ## 开源协议 / License
