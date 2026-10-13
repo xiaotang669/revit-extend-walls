@@ -30,12 +30,13 @@ A pyRevit tool for Autodesk Revit: batch-extend walls and beams to a target elem
    Download the `延伸墙梁.pushbutton` folder from this repo.
 
 2. 复制到 pyRevit 扩展目录：
-   Copy it to your pyRevit extensions folder:%APPDATA%\pyRevit\Extensions\MyTools.extension\MyTab.tab\Favorites.panel\
+   Copy it to your pyRevit extensions folder:
+   %APPDATA%\pyRevit\Extensions\MyTools.extension\MyTab.tab\Favorites.panel\
 
-3. 打开 Revit，点击 pyRevit 选项卡里的 **Reload**
+4. 打开 Revit，点击 pyRevit 选项卡里的 **Reload**
 Open Revit, click **Reload** in the pyRevit tab.
 
-4. 按钮会出现在你的自定义面板里
+5. 按钮会出现在你的自定义面板里
 The button will appear in your custom panel.
 
 ---
@@ -43,7 +44,7 @@ The button will appear in your custom panel.
 ## 使用方法 / Usage
 
 1. 点击按钮 / Click the button
-2. 框选要延伸的墙或梁，按 **Enter** 确认 / Box-select walls or beams, press **Enter**
+2. 框选要延伸的墙或梁，按 **完成** 确认 / Box-select walls or beams, press **Enter**
 3. 点选一个目标构件 / Pick a target element
 4. 脚本自动处理，弹窗显示结果 / The script runs and shows a result dialog
 
