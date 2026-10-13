@@ -23,6 +23,15 @@ Box-select multiple walls or beams, pick a target, and batch-extend them.
 3. 点选一个目标构件 / Pick a target element
 4. 脚本自动处理，弹窗显示结果 / The script runs and shows a result dialog
 
+   弹窗内容示例 /
+Example output:
+Extended : 4
+onto the target : 3
+onto its ext. line: 1
+Openings moved back : 0
+Skipped : 0
+Failed : 0
+
 ---
 
 ## 已知限制 / Known Limitations
@@ -34,6 +43,7 @@ Box-select multiple walls or beams, pick a target, and batch-extend them.
 - **表现**：脚本处理到某面墙时报错，那面墙保持不变，其他墙正常处理。
 - **临时解决**：保存文件，重启 Revit，再跑一次。多数情况下能成功。
 - **根因**：Revit 内部的墙连接约束，与脚本无关。目前无法稳定复现和修复。
+- **相关**：如果你的墙上有门窗，请同时阅读第 10 条。
 
 ### 2. 机电类构件不支持
 
